@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +15,49 @@
                 <h1>SearchDev</h1>
             </header>
             <section>
-            <div class="search-container">
-                <input type="text" class="search-input" placeholder="Digite sua duvida">
-            </section>                <section>
-                    <button onclick="pesquisar()">Pesquisar</button>
-                </section>
-        <section class="resultados-pesquisa" id="resultados-pesquisa">
-        </section>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Digite sua duvida">
+            </section>
+            <section>
+                <button onclick="pesquisar()">Pesquisar</button>
+            </section>
+            <section class="resultados-pesquisa" id="resultados-pesquisa">
+            </section>
     </main>
-    <footer>
-        <p>2024 - SearchDev. Todos os direitos reservados.</p>
-    </footer>
     <script src="dados.js"></script>
     <script src="app.js"></script>
 
+    <footer>
+        <ul class="social-icons">
+            <li><a href="https://github.com/angelbluehaven/serchdev"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/angelbluehaven/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://discord.gg/p97D48NEZy"><i class="fab fa-discord"></i></a></li>
+        </ul>
+    </footer>
     
+    <style>
+    .social-icons {
+      background-color: rgba(0, 0, 0, 0.329);
+      list-style: none;
+      display: flex;
+      justify-content: left;
+      padding: 10px;
+      
+    }
+    
+    .social-icons li {
+      margin: 0 5px;
+      
+    }
+    
+    .social-icons i {
+      font-size: 24px;
+      color: rgb(255, 255, 255); /* Aqui definimos a cor como branca */
+      
+    }
+    </style>
+
+
 </body>
+
 </html>
