@@ -7,6 +7,7 @@
 ![ARTE](https://github.com/user-attachments/assets/74a832fa-c85d-4040-b11e-337121af7d16)
 
 ## COMO UTILIZAR: https://www.youtube.com/watch?v=LeKD5OiY4AU
+## SITE: https://searchdev-inky.vercel.app/
 
 ## O QUE PESQUISAR?
 
