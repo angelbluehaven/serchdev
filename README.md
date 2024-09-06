@@ -1,4 +1,4 @@
-# SearchDev | Cursos Grátuitos
+# **SearchDev | Cursos Grátuitos**
 
 ### Seu pesquisador de cursos grátis para Desenvolvedores
 ### Esse site tem como proposito fornecer aos usuarios, links para cursos grátis no ramo da programação
